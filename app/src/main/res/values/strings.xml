@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ГБОУЗ</string>
+    <string-array name="kindOfSports">
+        <item>Плавание</item>
+        <item>Борьба</item>
+        <item>Метание из лука</item>
+        <item>Футбол</item>
+    </string-array>
+</resources>
