@@ -1,9 +1,19 @@
 <resources>
-    <string name="app_name">ГБОУЗ</string>
-    <string-array name="kindOfSports">
-        <item>Плавание</item>
-        <item>Борьба</item>
-        <item>Метание из лука</item>
-        <item>Футбол</item>
-    </string-array>
+        <string name="app_name">ГБОУЗ</string>
+
+        <string name="spisok">Общее</string>
+
+        <string name="studentsV">Список Студентов</string>
+        <string name="studentsPoGroup">Список по группам</string>
+        <string name="studentsPoKursam">Список по курсам</string>
+
+        <string name="addVkladka">Добавить</string>
+        <string name="addActivity">Добавить студента</string>
+
+        <string name="titleSformOtchet">Сформировать отчёты</string>
+        <string name="otchetOne">Создать заявку на питание</string>
+        <string name="otchetTwo">Сформировать табель питания</string>
+
+        <string name="feedback">Обратная связь</string>
+        <string name="feedActivity">Сообщить об проблеме</string>
 </resources>

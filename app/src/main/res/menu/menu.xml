@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:title="@string/spisok">
+            <menu>
+                <item android:id="@+id/studentsV" android:title="@string/studentsV"/>
+                <item android:id="@+id/studentsPoGroup" android:title="@string/studentsPoGroup"/>
+                <item android:id="@+id/studentsPoKursam" android:title="@string/studentsPoKursam"/>
+            </menu>
+        </item>
+    </group>
+    <item android:title="@string/titleSformOtchet">
+        <menu>
+            <item android:id="@+id/otchOne" android:title="@string/otchetOne"/>
+            <item android:id="@+id/otchTwo" android:title="@string/otchetTwo"/>
+        </menu>
+    </item>
+    <item android:title="@string/addVkladka">
+        <menu>
+            <item android:id="@+id/addActiv" android:title="@string/addActivity"/>
+        </menu>
+    </item>
+    <item android:title="@string/feedback">
+        <menu>
+            <item android:id="@+id/feedbackActivity" android:title="@string/feedActivity"/>
+        </menu>
+    </item>
+</menu>
